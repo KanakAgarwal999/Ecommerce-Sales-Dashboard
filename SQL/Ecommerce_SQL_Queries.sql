@@ -1,3 +1,15 @@
+/* =====================================================
+   Ecommerce Sales Analytics Project
+   Author: Kanak Agarwal
+
+   Objective:
+   Analyze ecommerce sales data and create
+   business insights for dashboard reporting.
+
+   Tools Used:
+   - SQL
+   - Power BI
+   ===================================================== */
 SELECT COUNT(*) AS Total_Records FROM ecommerce;
 SELECT * FROM ecommerce WHERE order_id IS NULL OR customer_id IS NULL OR total_amount IS NULL;
 SELECT DISTINCT category FROM ecommerce;
